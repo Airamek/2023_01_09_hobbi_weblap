@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7f7f7 url("images/bg01.png");
+		background: #2B3148 url("images/bg01.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #474747;
+		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -110,13 +110,13 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb;
+		color: #c3465c;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
 
 		a:hover {
-			color: #37c0fb;
+			color: #c3465c;
 			border-bottom-color: transparent;
 		}
 
@@ -2026,7 +2026,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #37c0fb;
+			border-color: #c3465c;
 		}
 
 	input[type="text"],
@@ -2147,7 +2147,7 @@ input, select, textarea {
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #37c0fb;
+			background-color: #c3465c;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2415,7 +2415,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-color: #37c0fb;
+		background-color: #c3465c;
 		border-radius: 5px;
 		border: 0;
 		color: #fff;
@@ -2532,7 +2532,7 @@ input, select, textarea {
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background-color: #fff;
+		background-color: #2B3148;/* #fff; */
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -2565,7 +2565,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #37c0fb;
+			background-color: #c3465c;
 			background-image: url("images/bg01.png");
 		}
 
@@ -2612,7 +2612,7 @@ input, select, textarea {
 						bottom: -0.5em;
 						left: 50%;
 						margin-left: -0.375em;
-						background-color: #37c0fb;
+						background-color: #c3465c;
 						background-image: url("images/bg01.png");
 					}
 
@@ -2674,7 +2674,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/wallpaperflarebanner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2724,7 +2724,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			background: #2B3148;
 		}
 
 		.wrapper.style2 {
@@ -2736,7 +2736,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #37c0fb;
+			background-color: #c3465c;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2750,7 +2750,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
+					color: #c3465c !important;
 				}
 
 /* CTA */
@@ -2783,7 +2783,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #37c0fb;
+				color: #c3465c;
 				border-bottom-color: transparent;
 			}
 
@@ -3068,7 +3068,7 @@ input, select, textarea {
 				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				height: 44px;
 				line-height: 44px;
-				box-shadow: 0 4px 0 0 #37c0fb;
+				box-shadow: 0 4px 0 0 #c3465c;
 			}
 
 				#titleBar .title {
